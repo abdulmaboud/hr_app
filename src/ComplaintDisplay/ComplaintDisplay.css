@@ -1,0 +1,86 @@
+/* General styles */
+.complaints-container {
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .mode-switcher {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .dark-mode {
+    background-color: #01223b; /* Dark navy background for dark mode */
+    color: #807d75a5; /* Light text color for dark mode */
+  }
+  
+  .complaint-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .warning {
+    background-color: #f8d7da;
+  }
+  
+  .bonus {
+    background-color: #d4edda;
+  }
+  
+  .complaint-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .complaint-badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+  
+  .warning-badge {
+    background-color: #de6d78;
+  }
+  
+  .bonus-badge {
+    background-color: #7ffd9c;
+  }
+  
+  .delete-icon {
+    cursor: pointer;
+    font-size: 20px;
+    color: #dc3545;
+    transition: color 0.3s;
+  }
+  
+  .delete-icon:hover {
+    color: #000000;
+  }
+  
+  .filter-container {
+    margin-bottom: 20px;
+  }
+  
+  .filter-container label {
+    margin-right: 10px;
+  }
+  
+  .filter-container select,
+  .filter-container input {
+    margin-left: 10px;
+    padding: 5px;
+  }

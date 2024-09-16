@@ -1,0 +1,11 @@
+.action-cell {
+    position: relative;
+  }
+  
+  .delete-button {
+    visibility: hidden;
+  }
+  
+  .action-cell:hover .delete-button {
+    visibility: visible;
+  }
